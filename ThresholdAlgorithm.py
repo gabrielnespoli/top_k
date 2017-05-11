@@ -85,7 +85,7 @@ def main():
     # parameters' shape:
     # [k] [number of files/dataset] [weight of the i-th dataframe score separete by space] [output directory]
     # Ex:
-    # 5 2 ./output-stopwords-BM25Scorer-title.tsv ./output-stopwords-BM25Scorer-text.tsv 2 1 ./output-threshold.tsv
+    # 5 2 ./data/output-stopwords-BM25Scorer-title.tsv ./data/output-stopwords-BM25Scorer-text.tsv 2 1 ./data/output-threshold.tsv
     k = int(sys.argv[1])
     total_files = int(sys.argv[2])
     filenames = []
